@@ -1,4 +1,6 @@
-recubre
-=======
+###Recubre website
+####_by [The UX Department](http://theuxdepartment.com/ "The UX Department")
 
-Repositorio para Recubre
+####Libraries
+
+- [Wordpress](http://wordpress.org/)	
