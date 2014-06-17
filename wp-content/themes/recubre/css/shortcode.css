@@ -1,0 +1,530 @@
+
+/* ===================== RESET CSS BOOTSTRAP ==================*/
+
+#myTabContent {clear:both;}
+.navbar-inner .container > p {overflow:hidden;display:inline-block;float:left;}
+.breadcrumb {background-color:#313131}
+.breadcrumb > li {text-shadow:none;}
+.pagination ul > li > a, .pagination ul > li > span {background-color:#313131;border-color:#131313}
+
+.tabs-left > .nav-tabs {border-bottom:1px solid #313131;border-right:1px solid #313131;}
+.tabs-left > .nav-tabs > li {border:0;}
+.tabs-left > .nav-tabs > li > a {margin-right:0;}
+.tabs-left > .nav-tabs > li > a:hover {border:0;}
+
+.tabs-right > .nav-tabs {border-left:1px solid #313131;border-bottom:1px solid #313131;}
+.tabs-right > .nav-tabs > li {border:0;}
+.tabs-right > .nav-tabs > li > a {margin-left:0;}
+.tabs-right > .nav-tabs > li > a:hover {border:0;}
+
+.table-striped tbody > tr:nth-child(2n+1) > td, .table-striped tbody > tr:nth-child(2n+1) > th,code {background-color:transparent;}
+
+
+html .icon-4x {font-size:80px;line-height:90px;}
+
+
+/*==============================================================*/
+/*                      BLOG SHORTCODE                          */
+/*==============================================================*/
+
+/* ===================== 1. SHORTCODE ALERT BOX ================*/
+
+body .alert {text-shadow:none;background-color:#fff0c8;border:0;color:#f0af00;padding:23px 20px;border-radius:0;-moz-border-radius:0;-webkit-border-radius:0;transition:all 0.2s ease-in-out 0s;-moz-transition:all 0.2s ease-in-out 0s;-webkit-transition:all 0.2s ease-in-out 0s;}
+body .alert:hover {background-color:#fcf3dc}
+body .alert-success {background-color:#f4ffd1;color:#a2d700}
+body .alert-success:hover {background-color:#f7fee1}
+body .alert-danger,body .alert-error {background-color:#ffcbcb;color:#e20000;}
+body .alert-danger:hover,body .alert-error:hover {background-color:#ffe1e1}
+body .alert-info {background-color:#ffcce0;color:#ff3787}
+body .alert-info:hover {background-color:#ffe2ed}
+body .alert-notice {background-color:#ffedd7;color:#ff6c00}
+body .alert-notice:hover{background-color:#fdf2e4}
+html .alert .close {right:-19px;}
+
+/* ===================== 2. SHORTCODE BUTTON ====================*/
+
+/* BUTTON COLOR */
+body .btn {background:none;text-transform:uppercase;font-size:14px;font-family:"Share";color:#fff;padding:0 30px;margin:0 0 10px 0;line-height:40px;height:40px;filter:none;border-radius:0;-moz-border-radius:0;-webkit-border-radius:0;box-shadow:none;-moz-box-shadow:none;-webkit-box-shadow:none;text-shadow:none;-moz-text-shadow:none;-webkit-text-shadow:none;transition:all 0.2s ease-in-out 0s;-moz-transition:all 0.2s ease-in-out 0s;-webkit-transition:all 0.2s ease-in-out 0s;} 
+body .btn:hover {color:#fff;filter:none;}
+body .btn:focus {outline:none;outline-offset:0;}
+body .btn.btn-bold {opacity:0.59;filter:alpha(opacity=59)}
+body .btn.btn-faint {opacity:0.36;filter:alpha(opacity=36)}
+body .btn.btn-faintest {opacity:0.20;filter:alpha(opacity=20)}
+body .btn.btn-largest {padding:0 82px;line-height:72px;height:72px;font-size:25px;}
+body .btn.btn-large {padding:0 45px;line-height:56px;height:56px;font-size:19px;}
+body .btn.btn-small {padding:0 42px;line-height:34px;height:34px;font-size:11px;}
+body .btn.btn-mini {padding:0 30px;line-height:22px;height:22px;font-size:9px;}
+/* Background */
+body .btn.btn-over-black.btn-background-yes {border-color:#000;background:#000;}
+body .btn.btn-over-black.btn-background-yes:hover {background:none;color:#000;}
+body .btn.btn-over-orange.btn-background-yes {border-color:#f0af00;background:#f0af00;}
+body .btn.btn-over-orange.btn-background-yes:hover {background:none;color:#f0af00;}
+body .btn.btn-over-blue.btn-background-yes {border-color:#0073e9;background:#0073e9;}
+body .btn.btn-over-blue.btn-background-yes:hover {background:none;color:#0073e9;}
+body .btn.btn-over-green.btn-background-yes {border-color:#00c09a;background:#00c09a;}
+body .btn.btn-over-green.btn-background-yes:hover {background:none;color:#00c09a;}
+body .btn.btn-over-red.btn-background-yes {border-color:#e20000;background:#e20000;}
+body .btn.btn-over-red.btn-background-yes:hover {background:none;color:#e20000;}
+body .btn.btn-over-magenta.btn-background-yes {border-color:#b828c9;background:#b828c9;}
+body .btn.btn-over-magenta.btn-background-yes:hover {background:none;color:#b828c9;}
+body .btn.btn-over-cardinal.btn-background-yes {border-color:#ff3787;background:#ff3787;}
+body .btn.btn-over-cardinal.btn-background-yes:hover {background:none;color:#ff3787;}
+body .btn.btn-over-azure.btn-background-yes {border-color:#4b3096;background:#4b3096;}
+body .btn.btn-over-azure.btn-background-yes:hover {background:none;color:#4b3096;}
+body .btn.btn-over-olive.btn-background-yes {border-color:#a2d700;background:#a2d700;}
+body .btn.btn-over-olive.btn-background-yes:hover {background:none;color:#a2d700;}
+/* No background */
+body .btn.btn-over-black.btn-background-no {border-color:#000;color:#000;}
+body .btn.btn-over-black.btn-background-no:hover {background:#000;color:#fff;}
+body .btn.btn-over-orange.btn-background-no {border-color:#f0af00;color:#f0af00;}
+body .btn.btn-over-orange.btn-background-no:hover {background:#f0af00;color:#fff;}
+body .btn.btn-over-blue.btn-background-no {border-color:#0073e9;color:#0073e9;}
+body .btn.btn-over-blue.btn-background-no:hover {background:#0073e9;color:#fff;}
+body .btn.btn-over-green.btn-background-no {border-color:#00c09a;color:#00c09a;}
+body .btn.btn-over-green.btn-background-no:hover {background:#00c09a;color:#fff;}
+body .btn.btn-over-red.btn-background-no {border-color:#e20000;color:#e20000;}
+body .btn.btn-over-red.btn-background-no:hover {background:#e20000;color:#fff;}
+body .btn.btn-over-magenta.btn-background-no {border-color:#b828c9;color:#b828c9;}
+body .btn.btn-over-magenta.btn-background-no:hover {background:#b828c9;color:#fff;}
+body .btn.btn-over-cardinal.btn-background-no {border-color:#ff3787;color:#ff3787;}
+body .btn.btn-over-cardinal.btn-background-no:hover {background:#ff3787;color:#fff;}
+body .btn.btn-over-azure.btn-background-no {border-color:#4b3096;color:#4b3096;}
+body .btn.btn-over-azure.btn-background-no:hover {background:#4b3096;color:#fff;}
+body .btn.btn-over-olive.btn-background-no {border-color:#a2d700;color:#a2d700;}
+body .btn.btn-over-olive.btn-background-no:hover {background:#a2d700;color:#fff;}
+
+/* BUTTON GROUP */
+body .btn-group > .btn,body .btn-group > .dropdown-menu,body .btn-group > .popover {font-size:12px;}
+body .btn-group-vertical > .btn {margin:0;}
+body .btn-toolbar {width:100%;overflow:hidden;margin-bottom:5px;}
+body .btn-group {white-space:normal}
+body .btn-group .btn {/*margin-bottom:5px;*/}
+
+/* ===================== 3. SHORTCODE ACCORDION ==================*/
+
+body .accordion {clear:both;}
+body .accordion-group {border:0;border-radius:0;-moz-border-radius:0;-webkit-border-radius:0;-o-border-radius:0;}
+body .accordion-heading {border-radius:0;-moz-border-radius:0;-webkit-border-radius:0;-o-border-radius:0;}
+body .accordion-heading a.accordion-toggle {position:relative;font-size:18px;line-height:20px;color:#fff;font-family:"Share";text-transform:uppercase;/*background:#000;*/padding:13px 0 13px 70px;}
+body .accordion-heading a.accordion-toggle:before {z-index:2;content:"";position:absolute;left:0;top:0;bottom:0;width:46px;background:#be0404;border-right:1px solid #fff;}
+body .accordion-heading a.accordion-toggle:after{z-index:3;position:absolute;top:13px;left:18px;width:10px;height:10px;text-align:center;content:"\f067";font-family:FontAwesome;color:#fff;font-size:8px;font-weight:normal;}
+body .accordion-heading a.accordion-toggle.collapsed:after {content:"\f068";}
+body .accordion-heading a.accordion-toggle:hover {text-decoration:none;color:#666;}
+body .accordion-inner {overflow:hidden;padding:20px 20px 25px;border-width:0 1px 1px;border-style:solid;border-color:#000;}
+body .accordion-heading a.accordion-toggle.collapsed:before {background-position:0 0;}
+
+/* ===================== 4. SHORTCODE CHECKLIST ==================*/
+
+.checklist-block.shortcode-icon-list ul li {background:none;padding:0;list-style:none;}
+.checklist-block.shortcode-icon-list ul li i {margin-right:10px;}
+
+/* ===================== 5. SHORTCODE SLIDER ==================*/
+
+.carousel.slide ol li {list-style-type:none;}
+.carousel.slide a:hover {color:#fff!important;}
+body .right.carousel-control {}
+body .carousel-control {text-indent:9999px;font-size:0;line-height:0;width:40px;height:40px;top:50%;margin-top:-22px;opacity:0.7;filter:alpha(opacity=70);border-radius:46px;-moz-border-radius:46px;-webkit-border-radius:46px;-o-border-radius:46px;}
+body .left.carousel-control,body .right.carousel-control {background:#000}
+body .right.carousel-control:before {display:inline-block;position:absolute;left:0;top:0;width:43px;line-height:40px;text-indent:0;font-size:30px;text-align:center;content:"\f105";font-family:FontAwesome;color:#fff;}
+body .left.carousel-control:before {display:inline-block;position:absolute;left:0;top:0;width:38px;line-height:38px;text-indent:0;font-size:30px;text-align:center;content:"\f104";font-family:FontAwesome;color:#fff;}
+
+/* modal */
+#myModal {display:none;}
+#myModal h1,#myModal h2,#myModal h3, #myModal h4, #myModal h5, #myModal h6 {color:#131313}
+
+/* ===================== 6. SHORTCODE ADDLINE =================*/
+
+.add-line {margin:1px 0;display:block;float:left;}
+
+/* ===================== 7. SHORTCODE HEADING =================*/
+
+.heading-title-block {display:inline-block;width:100%;}
+.heading-title-block h1,.heading-title-block h2,.heading-title-block h3,.heading-title-block h4,.heading-title-block h5,.heading-title-block h6{position:relative;}
+.heading-title-block h1:after,.heading-title-block h2:after,.heading-title-block h3:after,.heading-title-block h4:after,.heading-title-block h5:after,.heading-title-block h6:after {}
+.heading-title-block h1 p,.heading-title-block h2 p,.heading-title-block h3 p,.heading-title-block h4 p,.heading-title-block h5 p,.heading-title-block h6 p {}
+.align-center .heading-title-block h1, .align-center .heading-title-block h2, .align-center .heading-title-block h3, .align-center .heading-title-block h4, .align-center .heading-title-block h5, .align-center .heading-title-block h6 {text-align:center}
+.align-right .heading-title-block h1, .align-right .heading-title-block h2, .align-right .heading-title-block h3, .align-right .heading-title-block h4, .align-right .heading-title-block h5, .align-right .heading-title-block h6 {text-align:right}
+
+
+/* ===================== 8. SHORTCODE TAB ==================*/
+
+/* DEFAULT TAB */
+.tabbable {margin:0 0 20px;}
+.tabbable ul {margin:0;}
+.tabbable ul li {position:relative;list-style:none;padding-left:0;background:none;margin:0;}
+.tabbable ul li:hover {background:0;}
+.tabbable.tabs-default ul li.active:after {content:"";width:1px;position:absolute;right:0;top:0;bottom:0;background:#fff;}
+[id^=multitabs] .nav-tabs {}
+[id^=multitabs].tabs-default {border-width:0 1px 1px;border-style:solid;}
+[id^=multitabs].tabs-default > ul {border:0;}
+[id^=multitabs].tabs-default .nav-tabs li a {border-width:0 1px 0 0;border-style:solid;border-color:#666;text-transform:uppercase;font-size:18px;font-family:"Share";margin:0;padding:13px 20px;border-radius:0;-moz-border-radius:0;-webkit-border-radius:0;transition:all 0.3s ease-in-out 0s;-moz-transition:all 0.3s ease-in-out 0s;-webkit-transition:all 0.3s ease-in-out 0s}
+[id^=multitabs].tabs-default .nav-tabs li.active a,[id^=multitabs].tabs-default .nav-tabs li a:hover {/*border-color:#fff;*/}
+[id^=multitabs].tabs-default .tab-content {padding:20px 20px 25px;overflow:hidden;}
+[id^=multitabs].tabs-default .nav-tabs li.active a:hover {cursor:text;}
+
+/* ALIGN LEFT TAB */
+.tabbable.tabs-left {overflow:Hidden;border-width:1px 1px 1px 0;border-style:solid;border-color:#000;}
+.tabbable.tabs-left .nav-tabs {border:0;margin-right:0;position:relative;z-index:4;}
+.tabbable.tabs-left .nav-tabs:after {z-index:-1;content:"";display:block;position:absolute;left:0;right:0;top:0;bottom:-300px;}
+.tabbable.tabs-left .nav-tabs li {}
+.tabbable.tabs-left .nav-tabs li a {border-width:1px 0 0;border-style:solid;border-color:#fff;text-transform:uppercase;font-size:18px;letter-spacing:-0.5px;font-family:"Share";margin:0;padding:13px 20px;min-width:0;border-radius:0;-moz-border-radius:0;-webkit-border-radius:0;}
+.tabbable.tabs-left .nav-tabs li a:hover,.tabbable.tabs-left .nav-tabs li.active a {border-width:1px 0 0;}
+.tabbable.tabs-left .nav-tabs li:first-child a {border:0;}
+.tabbable.tabs-left .tab-content {overflow:hidden;padding:20px 20px 25px;}
+
+/* ALIGN RIGHT TAB */
+.tabbable.tabs-right {overflow:hidden;border-width:1px 0 1px 1px;border-style:solid;}
+.tabbable.tabs-right .nav-tabs {border:0;margin-right:0;position:relative;z-index:4;}
+.tabbable.tabs-right .nav-tabs:after {z-index:-1;content:"";display:block;position:absolute;left:0;right:0;top:0;bottom:-300px;}
+.tabbable.tabs-right .nav-tabs li {}
+.tabbable.tabs-right .nav-tabs li a {border-width:1px 0 0;border-style:solid;border-color:#fff;text-transform:uppercase;font-size:18px;letter-spacing:-0.5px;font-family:"Share";margin:0;padding:13px 20px;min-width:0;border-radius:0;-moz-border-radius:0;-webkit-border-radius:0;}
+.tabbable.tabs-right .nav-tabs li a:hover,.tabbable.tabs-right .nav-tabs li.active a {border-width:1px 0 0;}
+.tabbable.tabs-right .nav-tabs li:first-child a {border:0;}
+.tabbable.tabs-right .nav-tabs li.active a, .tabbable.tabs-right .nav-tabs li a:hover {color:#fff;}
+.tabbable.tabs-right .tab-content {overflow:hidden;padding:20px 20px 25px;}
+
+/* ===================== 9. SHORTCODE QUOTES ==================*/
+
+.quote-style{overflow:hidden;font-style:italic;line-height:16px;color:#999;padding:0 0 0 20px;margin:0 0 30px;border-left:2px solid #000;}
+
+/* ===================== 10. SHORTCODE BOXSTYLE ===============*/
+
+.box-style{width:100%;padding:0 0 20px 0}
+.box-style .top-left{height:6px;padding:0 0 0 6px;background-position:0 0;background-repeat:no-repeat;}
+.box-style .top-right{height:6px;background-position:100% -6px;background-repeat:no-repeat;}
+.box-style .bot-left{height:6px;padding:0 0 0 6px;background-position:0 -12px;background-repeat:no-repeat;}
+.box-style .bot-right{height:6px;background-position:100% -18px;background-repeat:no-repeat;}
+.box-style .contentcenter{padding:9px 15px;}
+
+.box-style.info .top-left, .box-style.info .top-right, .box-style.info .bot-left, .box-style.info .bot-right{background-image:url(../images/shortcode/bg_box_info.png);}
+.box-style.info .contentcenter{background:#d2eff7;border-left:1px solid #b1e2f0;border-right:1px solid #b1e2f0;color:#447c8b;}
+.box-style.success .top-left, .box-style.success .top-right, .box-style.success .bot-left, .box-style.success .bot-right{background-image:url(../images/shortcode/bg_box_success.png);}
+.box-style.success .contentcenter{background:#dbf1b1;border-left:1px solid #bfdb8a;border-right:1px solid #bfdb8a;color:#809655;}
+.box-style.error .top-left, .box-style.error .top-right, .box-style.error .bot-left, .box-style.error .bot-right{background-image:url(../images/shortcode/bg_box_error.png);}
+.box-style.error .contentcenter{background:#fedada;border-left:1px solid #f5c5c5;border-right:1px solid #f5c5c5;color:#8e5151;}
+.box-style.notice .top-left, .box-style.notice .top-right, .box-style.notice .bot-left, .box-style.notice .bot-right{background-image:url(../images/shortcode/bg_box_notice.png);}
+.box-style.notice .contentcenter{background:#ffedd7;border-left:1px solid #f1d7b8;border-right:1px solid #f1d7b8;color:#d9b07f;}
+.box-style.note .top-left, .box-style.note .top-right, .box-style.note .bot-left, .box-style.note .bot-right{background-image:url(../images/shortcode/bg_box_note.png);}
+.box-style.note .contentcenter{background:#fffdca;border-left:1px solid #f2efad;border-right:1px solid #f2efad;color:#d9b07f;}
+.box-style .contentcenter {overflow:hidden;}
+
+/* ===================== 11. SHORTCODE THUMBNAIL ==================*/
+
+.thumbnail-style-01{margin:0 5px;background:#fff;box-shadow:0 0 5px #ccc;border:5px solid #fff;display:inline-block;width:auto;height:auto;max-width:100%;overflow:hidden;}
+.thumbnail-style-01 img {margin:0!important;padding:0!important;transition:all 0.5s ease-in-out 0s;-moz-transition:all 0.5s ease-in-out 0s;-webkit-transition:all 0.5s ease-in-out 0s;-o-transition:all 0.5s ease-in-out 0s;}
+.thumbnail-style-01:hover img{transform:scale(1.2);-moz-transform:scale(1.2);-webkit-transform:scale(1.2);-o-transform:scale(1.2);}
+
+.thumbnail-style-02 {margin:0 5px;background:url(../images/bg-thumbnail.png) repeat #131313;box-shadow:0 0 5px #ccc;border:5px solid #fff;display:inline-block;width:auto;height:auto;max-width:100%;overflow:hidden;}
+.thumbnail-style-02 img {margin:0!important;padding:0!important;transition:all 0.5s ease-in-out 0s;-moz-transition:all 0.5s ease-in-out 0s;-webkit-transition:all 0.5s ease-in-out 0s;-o-transition:all 0.5s ease-in-out 0s;}
+.thumbnail-style-02:hover img {transform:rotate3d(0,1,0,180deg)}
+
+/* ===================== 12. SHORTCODE CAROUSEL ==================*/
+
+.carousel-inner > .item > img {width:100%;height:auto;max-width:100%;margin:0;}
+
+/* ===================== 13. SHORTCODE DROPCAP ===================*/
+ 
+.dropcap {float:left;font-size:62px;line-height:62px;text-transform:uppercase;margin-right:10px;}
+
+/* ===================== 14. SHORTCODE RECENT WORK ===============*/
+
+.shortcode-recent-blogs > li {list-style:none;padding-left:20px;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;-o-box-sizing:border-box;padding-bottom:15px}
+.shortcode-recent-blogs > li a.thumbnail {display:block;overflow:hidden;margin:0 0 10px;}
+.shortcode-recent-blogs > li a.thumbnail img {margin:0;transition:all 0.3s ease-in-out 0s;-moz-transition:all 0.3s ease-in-out 0s;-webkit-transition:all 0.3s ease-in-out 0s}
+.shortcode-recent-blogs > li a.thumbnail img:hover{transform:scale(1.2,1.2);-webkit-transform:scale(1.2,1.2);-moz-transform:scale(1.2,1.2);-o-transform:scale(1.2,1.2);}
+.shortcode-recent-blogs > li .detail h4.heading-title {display:inline-block;padding:0;}
+.shortcode-recent-blogs > li .detail h4.heading-title a {font-weight:normal;font-size:14px;line-height:16px;text-transform:uppercase;}
+.shortcode-recent-blogs > li .detail p.excerpt {line-height:12px;margin:0 0 7px;} 
+.shortcode-recent-blogs > li .detail div.meta {line-height:14px;} 
+
+.shortcode-recent-works.flexslider {background:none;padding:0 20px;border-radius:0;-moz-border-radius:0;-webkit-border-radius:0;-o-border-radius:0;border:0;margin-bottom:20px;padding-bottom:20px;}
+.shortcode-recent-works ul li > div {padding:0 10px;position:relative;overflow:hidden;}
+.shortcode-recent-works ul li > div .icons {position:absolute;left:0;bottom:-100%;width:100%;padding:0 10px;height:100%;background:rgba(0,0,0,0.5);transition: all 0.5s ease-in-out 0s;-moz-transition: all 0.5s ease-in-out 0s;-o-transition: all 0.5s ease-in-out 0s;-webkit-transition: all 0.5s ease-in-out 0s;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;-o-box-sizing:border-box;}
+.shortcode-recent-works ul li:hover > div .icons {bottom:0;}
+.shortcode-recent-works ul li:hover > div .thumbnail img {transform:scale(1.2);}
+.shortcode-recent-works ul li .author-time {font-size:10px;text-transform:capitalize;} 
+.shortcode-recent-works .flex-direction-nav .flex-next {right:0;width:20px;height:20px;opacity:0.5;filter:alpha(opacity=50);background:url(../images/lightbox.png) no-repeat -92px -13px}
+.shortcode-recent-works .flex-direction-nav .flex-next:hover {opacity:1;filter:alpha(opacity=100);}
+.shortcode-recent-works .flex-direction-nav .flex-prev {left:0;width:20px;height:20px;opacity:0.5;filter:alpha(opacity=50);background:url(../images/lightbox.png) no-repeat -25px -13px}
+.shortcode-recent-works .flex-direction-nav .flex-prev:hover {opacity:1;filter:alpha(opacity=100);}
+.shortcode-recent-works .flex-control-nav {bottom:0;}
+.flex-control-paging {display:block;overflow:hidden;}
+.flex-control-paging li {width:11px;height:11px;display:inline-block;}
+.flex-control-paging li a {background-color:#dfdfdf;}
+.shortcode-recent-works .flex-control-nav li {margin:0 3px;}
+.shortcode-recent-works a.thumbnail {overflow:hidden;display:block;border:1px solid #313131;padding:2px;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;}
+.shortcode-recent-works a.thumbnail img {transition: all 0.5s ease-in-out 0s;-moz-transition: all 0.5s ease-in-out 0s;-o-transition: all 0.5s ease-in-out 0s;-webkit-transition: all 0.5s ease-in-out 0s;}
+.shortcode-recent-works .icons > div {width:60px;height:24px;position:absolute;left:50%;margin-left:-30px;top:50%;margin-top:-12px;}
+.shortcode-recent-works .icons .zoom-gallery {background:url("../images/zoom_gallery.png") no-repeat scroll 0 0 transparent;display:inline-block;width:24px;height:24px;transition: all 0.5s ease-in-out 0s;-moz-transition: all 0.5s ease-in-out 0s;-o-transition: all 0.5s ease-in-out 0s;-webkit-transition: all 0.5s ease-in-out 0s;}
+.shortcode-recent-works .icons .link-gallery {background:url("../images/link-icon.png") no-repeat scroll 0 0 transparent;width:32px;height:24px;display:inline-block;transition: all 0.5s ease-in-out 0s;-moz-transition: all 0.5s ease-in-out 0s;-o-transition: all 0.5s ease-in-out 0s;-webkit-transition: all 0.5s ease-in-out 0s;}
+.shortcode-recent-works .icons .zoom-gallery:hover {transform:rotate(180deg);-moz-transform:rotate(180deg);-webkit-transform:rotate(180deg);-o-transform:rotate(180deg);}
+
+/* ===================== 14. SHORTCODE TOGGLE ==================*/
+
+.toggle_container .contentcenter {position:relative;display:block;border:1px solid #313131;border-radius:4px;-moz-border-radius:4px;-webkit-border-radius:4px;margin-bottom:2px;}
+.toggle_container .contentcenter .toggle_head{padding:8px 15px; }
+.toggle_container .contentcenter .toggle_content  {padding:9px 15px;border-top:1px solid #313131}
+
+/* ===================== 15. SHORTCODE RECENT BLOG ==============*/
+
+.shortcode-recent-blogs{float:left;margin-left:-20px;}
+.shortcode-recent-blogs li .thumbnail img {width:100%;height:auto;max-width:100%}
+.shortcode-recent-blogs li.last:after {display:inline-block;float:none;content:".";color:transparent;width:100%;height:1px;overflow:hidden;clear:both;background:transparent;}
+.shortcode-recent-blogs .hidden-element {display:none;}
+.shortcode-recent-blogs .author-time span {text-transform:capitalize;font-size:10px;font-weight:bold;}
+.shortcode-recent-blogs .heading-title {text-transform:none;line-height:20px;padding:7px 0 0;letter-spacing:0;}
+.shortcode-recent-blogs .heading-title a:hover {text-decoration:none;}
+.entry-content .shortcode-recent-blogs li {padding-left:0;background:0;}
+
+/* ===================== 16. SHORTCODE RECENT PORTFOLIO =========*/
+
+.shortcode-recent-portfolios {}
+.shortcode-recent-portfolios .item {position:relative;padding:0 5px;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;-o-box-sizing:border-box;}
+.shortcode-recent-portfolios .item img {width:100%;height:auto;max-width:100%}
+.shortcode-recent-portfolios .item .author-time {text-transform:capitalize;font-size:10px;font-weight:bold;}
+.shortcode-recent-portfolios .flex-control-nav {}
+
+/* ===================== 17. SHORTCODE ALIGN ==================*/
+
+.align-left,.align-center,.align-right {width:100%;overflow:hidden;}
+.align-left > div {float:left;width:100%;}
+.align-right > div {float:right;width:100%;}
+.align-center > div {margin-left:auto;margin-right:auto;}
+
+/* ===================== 18. SHORTCODE HR - LABEL ====================*/
+
+.hr-,hr {width:100%;min-height:1px;clear:both;float:left;background:transparent;display:block;border:0;}
+.hr.line-style {height:30px;margin-bottom:20px;background:url("http://demo.wpdance.com/imgs/wp_TechGoStore/line.jpg") no-repeat 50% 0;}
+
+/* SHORTCODE LABEL */
+span.label {background:#999;border:1px solid #999;margin:0 10px 10px 0;border-radius:0;-moz-border-radius:0;-webkit-border-radius:0;text-shadow:none;-moz-text-shadow:none;-webkit-text-shadow:none;font-weight:normal;font-family:"Share";font-size:14px;padding:7px 15px;transition:all 0.2s ease-in-out 0s;-moz-transition:all 0.2s ease-in-out 0s;-webkit-transition:all 0.2s ease-in-out 0s;border-radius:28px;-moz-border-radius:28px;-webkit-border-radius:28px;}
+span.label:hover {background:none;color:#999;}
+html .label-success {background:#A2D700;border:1px solid #A2D700}
+html .label-success:hover{background:none;color:#A2D700}
+html .label-warning {background:#F0AF00;border:1px solid #F0AF00}
+html .label-warning:hover {background:none;color:#F0AF00}
+html .label-important {background:#E20000;border:1px solid #E20000}
+html .label-important:hover{background:none;color:#E20000}
+html .label-info {background:#0073E9;border:1px solid #0073E9}
+html .label-info:hover {background:none;color:#0073E9}
+html .label-inverse {background:#000;border:1px solid #000;}
+html .label-inverse:hover {background:none;color:#000;}
+
+span.badge {background:none;color:#999;border:1px solid #999;margin:0 10px 10px 0;border-radius:0;-moz-border-radius:0;-webkit-border-radius:0;text-shadow:none;-moz-text-shadow:none;-webkit-text-shadow:none;font-weight:normal;font-family:"Share";font-size:14px;padding:7px 15px;transition:all 0.2s ease-in-out 0s;-moz-transition:all 0.2s ease-in-out 0s;-webkit-transition:all 0.2s ease-in-out 0s;border-radius:28px;-moz-border-radius:28px;-webkit-border-radius:28px;}
+span.badge:hover{background:#999;color:#fff;} 
+html .badge-success {border-color:#A2D700;color:#A2D700;}
+html .badge-success:hover {background:#A2D700;color:#fff;}
+html .badge-warning {border-color:#F0AF00;color:#F0AF00;}
+html .badge-warning:hover {background:#F0AF00;color:#fff;}
+html .badge-important {border-color:#E20000;color:#E20000}
+html .badge-important:hover {background:#E20000;color:#fff;}
+html .badge-info {border-color:#0073E9;color:#0073E9}
+html .badge-info:hover {background-color:#0073E9;color:#fff;}
+html .badge-inverse {border-color:#000;color:#000;}
+html .badge-inverse:hover {background-color:#000;}
+
+/* ===================== 19. SHORTCODE COLUMN ================*/
+
+.one_half,
+.one_third, .two_third,
+.one_fourth, .three_fourth,
+.one_fifth, .two_fifth, .three_fifth, .four_fifth,
+.one_sixth, .five_sixth{float:left;margin-right:2%;margin-bottom:15px;overflow:hidden;}
+.one_half {width: 49%;}
+.one_third {width: 32%;}
+.two_third {width: 66%;}
+.one_fourth {width: 23.5%;}
+.three_fourth {width: 74.5%;}
+.one_fifth {width: 18.4%;}
+.two_fifth {width: 38.8%;}
+.three_fifth {width: 59.2%;}
+.four_fifth {width: 79.6%;}
+.one_sixth {width: 15%;}
+.five_sixth {width: 83%;}
+.one_half.last, 
+.one_third.last, .two_third.last, 
+.one_fourth.last, .three_fourth.last, 
+.one_fifth.last, .two_fifth.last, .three_fifth.last, .four_fifth.last, 
+.one_sixth.last, .five_sixth.last{margin-right:0;overflow:hidden;}
+
+@media 
+only screen and (max-device-width: 960px),
+only screen and (max-width: 960px) {
+.one_half ,
+.one_third,
+.two_third,
+.one_fourth, 
+.three_fourth,
+.one_fifth,
+.two_fifth,
+.three_fifth,
+.four_fifth,
+.one_sixth, 
+.five_sixth, 
+.one_half.last, 
+.one_third.last, .two_third.last, 
+.one_fourth.last, .three_fourth.last, 
+.one_fifth.last, .two_fifth.last, .three_fifth.last, .four_fifth.last, 
+.one_sixth.last, .five_sixth.last {overflow:hidden;}
+}
+	
+@media 
+only screen and (max-device-width: 480px),
+only screen and (max-width: 480px) {
+.one_half ,
+.one_third,
+.two_third,
+.one_fourth, 
+.three_fourth,
+.one_fifth,
+.two_fifth,
+.three_fifth,
+.four_fifth,
+.one_sixth, 
+.five_sixth, 
+.one_half.last, 
+.one_third.last, .two_third.last, 
+.one_fourth.last, .three_fourth.last, 
+.one_fifth.last, .two_fifth.last, .three_fifth.last, .four_fifth.last, 
+.one_sixth.last, .five_sixth.last{width:100%;margin:0 0 10px;}
+}
+
+.demo-columns {height:40px;background:#d5d5d5;transition:all 0.2s ease-in-out 0s;-moz-transition:all 0.2s ease-in-out 0s;-webkit-transition:all 0.2s ease-in-out 0s;}
+.demo-columns:hover {background:#e8e7e7}
+
+/* =====================  20. SHORTCODE BANNER ================*/
+
+.shortcode_wd_banner {position:relative;overflow:hidden;text-align:center;background-position:center 0;background-size:100% auto;cursor:pointer;margin-bottom:30px;background-repeat:repeat-x;padding:15px;transition:background-size 0.2s linear 0s;-moz-transition:background-size 0.2s linear 0s;-webkit-transition:background-size 0.2s linear 0s;-o-transition:background-size 0.2s linear 0s;}
+.shortcode_wd_banner:hover {background-size:105% auto;}
+.shortcode_wd_banner .shortcode_wd_banner_inner {overflow:hidden;box-shadow:0 0 0 50px rgba(0,0,0,0)}
+.shortcode_wd_banner .shortcode_wd_banner_inner div:first-child {overflow:hidden;}
+.shortcode_wd_banner h3.banner-title {font-size:44px;line-height:50px;text-transform:uppercase;font-family:"Share";letter-spacing:1px;font-weight:normal;margin:0;}
+.shortcode_wd_banner h4 {display:inline-block;position:relative;font-family:"Share";font-weight:normal;font-size:18px;line-height:20px;margin:0;}
+.shortcode_wd_banner h4:before {display:block;height:1px;width:284px;content:"";background:#fff;position:absolute;top:51%;left:100%;margin-left:10px;}
+.shortcode_wd_banner h4:after {display:block;height:1px;width:284px;content:"";background:#fff;position:absolute;top:51%;right:100%;margin-right:10px;}
+.shortcode_wd_banner .shortcode_banner_simple_sep {height:2px;width:50%;}
+.shortcode_wd_banner .shortcode_banner_simple_bullet {position:absolute;right:0;top:0;width:82px;height:81px;overflow:hidden;padding:36px 10px 10px;text-align:center;background:url(../images/bg_label_shortcode_banner.png) no-repeat;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;}
+.shortcode_wd_banner .shortcode_banner_simple_bullet span {display:inline-block;overflow:hidden;text-transform:uppercase;font-size:18px;height:18px;line-height:18px;font-family:"Share";}
+
+/* ===================== 21. SHORTCODE TESTIMONIAL =================*/
+
+.estimonial-item .twitter_follow {font-size:14px;}
+.estimonial-item .twitter_follow a {margin-bottom:10px;}
+.estimonial-item .twitter_follow a.first{padding:0 10px 0 35px;display:inline-block;line-height:24px;position:relative;border:1px solid #333;margin:0 10px 10px 0;}
+.second-footer-widget-area .estimonial-item .twitter_follow a.first:hover {text-decoration:none;border-color:#fff}
+.estimonial-item .twitter_follow a.first:before {position:absolute;left:0;top:0;content:"\f099";display:inline-block;font-family:"FontAwesome";font-size:14px;color:#4d4d4d;width:35px;height:24px;text-align:center;line-height:24px;}
+.second-footer-widget-area .estimonial-item .twitter_follow a.first:hover:before {color:#fff;} 
+#footer .estimonial-item .twitter_follow a.second {font-size:14px;}
+.estimonial-item .twitter_follow a.second:hover {text-decoration:none;}
+.estimonial-item{position:relative;padding-right:90px;min-height:175px;}
+.estimonial-item .avartar img {border-radius:100%;-moz-border-radius:100%;-webkit-border-radius:100%;transition:all 0.2s ease-in-out 0s;-moz-transition:all 0.2s ease-in-out 0s;-webkit-transition:all 0.2s ease-in-out 0s;}
+.estimonial-item .avartar img:hover {opacity:0.60;filter:alpha(opacity=60);}
+.estimonial-item .avartar {width:80px;height:80px;right:0;top:50px;position:absolute;}
+.estimonial-item .testimonial-content {overflow:hidden;margin:0 0 25px;}
+.estimonial-item .detail > h3 {text-transform:uppercase;letter-spacing:0;}
+
+/* END BLOG SHORTCODE */
+
+
+/* ===================== 22. SHORTCODE HR =================*/
+
+.hr {margin-bottom:10px;min-height:1px;display:block;width:100%;}
+.hr.line-style {height:30px;margin-bottom:20px;background:url("http://demo.wpdance.com/imgs/wp_TechGoStore/line.jpg") no-repeat 50% 0;}
+
+/* ===================== 23. SHORTCODE PROGRESS BAR ========*/
+
+html .progress  {height:31px;background-color:#f4f4f4;background-image:none;box-shadow:none;-moz-box-shadow:none;-webkit-box-shadow:none;border-radius:0;-moz-border-radius:0;-webkit-border-radius:0;}
+html .progress .bar {font-family:"Share";font-size:16px;letter-spacing:-0.5px;line-height:31px;background-image:none;background-color:#00c09a;filter:none;box-shadow:none;-moz-box-shadow:none;-webkit-box-shadow:none;text-shadow:none;-moz-text-shadow:none;-webkit-text-shadow:none;}
+html .progress-danger .bar, html .progress .bar-danger {background-color:#be0404}
+html .progress-success .bar, html .progress .bar-success{background-color:#a2d700;}
+html .progress-info .bar, html .progress .bar-info{background-color:#0073e9}
+html .progress-warning .bar, html .progress .bar-warning {background-color:#f0af00}
+html .progress.progress-striped .bar
+{background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);}
+
+/* ===================== 24. SHORTCODE FEATURED =================*/
+
+.feature.shortcode .feature_title {margin:0 0 19px 20px;}
+.feature.shortcode .feature_title,
+.feature.shortcode .feature_title a {font-size:28px;line-height:34px;}
+.feature.shortcode .feature_content_wrapper {position:relative;padding:0 0 0 104px;min-height:92px;}
+.feature.shortcode .feature_content_wrapper .feature_thumbnail {display:inline-block;position:absolute;left:10px;top:0;}  
+  
+/*==============================================================*/
+/*                   WOO COMMERCE SHORTCODE                     */
+/*==============================================================*/
+
+body .woocommerce .cart-collaterals .cross-sells,body .woocommerce-page .cart-collaterals .cross-sells {width:100%;padding-left:30px;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;-o-box-sizing:border-box;}
+body .woocommerce .cart-collaterals .cross-sells ul.products > li,
+body .woocommerce-page .cart-collaterals .cross-sells ul.products > li {width:25%;}
+body .span12 .woocommerce .cart-collaterals .cross-sells ul.products > li,
+body .woocommerce-page .span12 .cart-collaterals .cross-sells ul.products > li {width:50%;}
+body .woocommerce .cart-collaterals .cross-sells > h2,body .woocommerce-page .cart-collaterals .cross-sells > h2 {border-bottom:1px solid #d5d5d5;padding-bottom:5px;}
+
+/* =====================  1. SHORTCODE PRODUCTS ================*/
+html .woocommerce ul.products li.product .heading-title.promotion-title {text-transform:uppercase;color:#BE0404}
+/* end shortcode products */
+
+/* ===================== 2. SHORTCODE PRODUCTS BY CATAGORIES ================*/
+.custom_category_shortcode .custom-category-title {font-size:22px;letter-spacing:-1px;text-transform:uppercase;}
+.woocommerce ul.products .product_upsells {overflow:hidden;padding:0;}
+.woocommerce ul.products .product_upsells h4.heading-title {text-align:center;text-transform:none;padding:8px 12px 4px 0;margin:0 0 3px;}
+.woocommerce ul.products .product_upsells ul {margin-left:-12px;margin-bottom:0;}
+.woocommerce ul.products .product_upsells ul li {display:inline-block;float:left;width:25%;height:auto;padding:0;}
+.woocommerce .span12 ul.products .product_upsells ul li ,
+.woocommerce-page .span12 ul.products .product_upsells ul li {width:50%}
+.woocommerce ul.products .product_upsells ul li a {border-width:1px;border-style:solid;border-color:#cfcfcf;background:#fff;display:block;width:auto;height:auto;margin:0 0 0 12px;}
+.woocommerce ul.products .product_upsells ul li a img {margin:0;width:100%;height:auto;}
+.woocommerce ul.products .product_upsells ul li.last {margin-right:0;}
+.woocommerce ul.products .line-wrapper {overflow:hidden;width:50%;}
+body .woocommerce ul.products .line-wrapper li.product, body .woocommerce-page ul.products .line-wrapper li.product {width:50%;margin:0 0 20px!important;padding:0 10px;-box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;}
+/* end shortcode products by catagories */
+
+/* ===================== 3 . SHORTCODE SLIDER ================*/
+.featured_product_slider_wrapper .heading-title{font-size:40px;letter-spacing:-1px;text-transform:uppercase;}
+.woocommerce .featured_product_slider_wrapper,.woocommerce-page .featured_product_slider_wrapper {position:relative;padding:0 25px;}
+.woocommerce .featured_product_slider_wrapper ul.products li.product,.woocommerce-page .featured_product_slider_wrapper ul.products li.product {padding:0 10px;margin:0;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;-o-box-sizing:border-box;clear:none;}
+.woocommerce .featured_product_slider_wrapper ul.products li.product.first,.woocommerce-page .featured_product_slider_wrapper ul.products li.product.first {clear:none;}
+.woocommerce .featured_product_slider_wrapper .featured_product_slider_wrapper_meta,.woocommerce-page .featured_product_slider_wrapper .featured_product_slider_wrapper_meta {text-align:center;}
+.woocommerce .featured_product_slider_wrapper .featured_product_slider_wrapper_meta h3,.woocommerce-page .featured_product_slider_wrapper .featured_product_slider_wrapper_meta h3 {font-size:40px;line-height:46px;letter-spacing:-1px;}
+.woocommerce .featured_product_slider_wrapper .pager a,.woocommerce-page .featured_product_slider_wrapper .pager a {display:inline-block;position:relative;width:12px;height:12px;margin:0 2px;background:#ccc;border-radius:100%;-moz-border-radius:100%;-webkit-border-radius:100%;}
+.woocommerce .featured_product_slider_wrapper .pager a span,.woocommerce-page .featured_product_slider_wrapper .pager a span{display:inline-block;float:left;text-indent:9999px;font-size:0;line-height:0;color:transparent;}
+.woocommerce .featured_product_slider_wrapper .pager a.selected,.woocommerce .featured_product_slider_wrapper .pager a:hover,.woocommerce-page .featured_product_slider_wrapper .pager a.selected,.woocommerce-page .featured_product_slider_wrapper .pager a:hover{background:#000;}
+.woocommerce .featured_product_slider_wrapper .pager a.selected:hover,.woocommerce-page .featured_product_slider_wrapper .pager a.selected:hover {cursor:text;}
+/**/
+.woocommerce ul.products .featured_product_wrapper {overflow:hidden;width:50%;float:left;padding-right:10px;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box}
+.woocommerce ul.products .featured_product_wrapper .product_big_layout {overflow:hidden;}
+.woocommerce ul.products .featured_product_wrapper .product_big_layout > li.product {width:100%;margin:0;padding:0;border-right:0;}
+.woocommerce ul.products .featured_product_wrapper .product_big_layout > li.product .product-meta-wrapper {width:100%;background:#fff;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;-o-box-sizing:border-box;}
+.woocommerce ul.products .featured_product_wrapper .product_big_layout > li.product > a > h3 {display:none;}
+html .featured_product_slider_wrapper .woocommerce ul.products li.product .product_thumbnail_wrapper , html .woocommerce-page .featured_product_slider_wrapper ul.products li.product .product_thumbnail_wrapper {display:block;}
+ul.products li.product.wd_product_feature,
+html .woocommerce ul.products li.product.wd_product_feature,
+html .woocommerce-page ul.products li.product.wd_product_feature {width:50%;}
+ul.products li.product.wd_product_feature li.product,
+html .woocommerce ul.products li.product.wd_product_feature li.product,
+html .woocommerce-page ul.products li.product.wd_product_feature li.product {height:auto;}
+/* end shortcode slider */
+
+
+/* =================== 10 .CUSTOM PRODUCTS SHORTCODE =============*/
+html .woocommerce .custom-product-shortcode ul.products li.product, html .woocommerce-page .custom-product-shortcode ul.products li.product {width:100%;}
+
+/*==============================================================*/
+/*                 PORTFOLIO SHORTCODE                          */
+/*==============================================================*/
+
+.portfolio_sc {position:relative;display:inline-block;max-width:100%;}
+.portfolio_sc h2 {font-family:Roboto;text-transform:none;font-size:16px;letter-spacing:0;line-height:16px;text-align:center;margin:0;color:#fff;}
+.portfolio_sc h2 a {color:#fff}
+.portfolio_sc a.image {display:inline-block;position:relative;max-width:100%;}
+.portfolio_sc a.image img {margin:0;transition:all 0.5s ease-in-out 0s;-moz-transition:all 0.5s ease-in-out 0s;-webkit-transition:all 0.5s ease-in-out 0s;}
+.portfolio_sc:hover a.image img {transform:scale(1.2,1.2);-moz-transform:scale(1.2,1.2);-webkit-transform:scale(1.2,1.2)}
+.portfolio_sc a.image .hover-default {display:block;position:absolute;z-index:2;left:0;right:0;bottom:0;background:#000;zoom: 1;transition:all 0.5s ease-in-out 0s;-moz-transition:all 0.5s ease-in-out 0s;-webkit-transition:all 0.5s ease-in-out 0s;transform:scale(0,0);-moz-transform:scale(0,0);-webkit-transform:scale(0,0)}
+.portfolio_sc:hover a.image .hover-default {transform:scale(1,1);-moz-transform:scale(1,1);-webkit-transform:scale(1,1)}
+.portfolio_sc .thumb-tag {position:absolute;bottom:0;left:0;right:0;padding:10px;top:auto;z-index:3;background:rgba(0,0,0,0.75);color:#fff;min-height:55px;transition:all 0.5s ease-in-out 0s;-moz-transition:all 0.5s ease-in-out 0s;-webkit-transition:all 0.5s ease-in-out 0s;}
+.portfolio_sc:hover .thumb-tag {opacity:1;filter:alpha(opacity=100)} 

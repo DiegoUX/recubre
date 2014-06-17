@@ -1,0 +1,145 @@
+/*========================================================================================================================*/
+/*                                               RESET ELEMENT                                                            */
+/*========================================================================================================================*/
+*{margin:0;padding:0;}
+body{font-size:12px;line-height:14px;text-align:left;font-weight:normal;vertical-align: baseline;/*position:relative;*/float:left;width:100%;-webkit-text-size-adjust: none;-webkit-font-smoothing: antialiased;word-wrap:break-word;-ms-word-wrap: break-word;}
+html,body { -webkit-text-size-adjust:none; }
+img{border:0;vertical-align:top;margin:0 0 15px;max-width:100%;height:auto;}
+a{font-size:14px;text-decoration:none;cursor:pointer;background:transparent;transition:all 0.2s ease-in-out 0s;-moz-transition:all 0.2s ease-in-out 0s;-webkit-transition:all 0.2s ease-in-out 0s;}
+a:hover{text-decoration:none;color:#BE0404;-webkit-tap-highlight-color: transparent;-moz-tap-highlight-color: transparent;-o-tap-highlight-color: transparent}
+a.button:hover {text-decoration:none;}
+input[type^="text"]:focus{ outline:0;-webkit-tap-highlight-color: transparent;-moz-tap-highlight-color: transparent;-webkit-appearance:none;}
+select:focus {outline:0;}
+p {margin:0 0 15px;display:block;}
+strong {font-weight:bold;}
+em {font-style:italic;}
+pre {overflow:hidden;}
+ins {text-decoration:none;}
+label {white-space:normal;}
+
+/* Heading */
+h1,h2,h3,h4,h5,h6 {font-weight:normal;margin:0 0 7px;letter-spacing:-1px;}
+h1{font-size:40px;line-height:46px;text-transform:uppercase;margin:0 0 14px;}
+h2{font-size:34px;line-height:40px;text-transform:uppercase;margin:0 0 17px;}
+h3{font-size:28px;line-height:34px;margin:0 0 19px;}
+h4{font-size:22px;line-height:26px;text-transform:uppercase;margin:0 0 22px;}
+h5{font-size:18px;line-height:24px;text-transform:uppercase;margin:0 0 22px;}
+h6{font-size:14px;line-height:16px;margin:0 0 22px;letter-spacing:0;}
+
+/* Form */
+form{display:inline;}
+
+/* Table */
+table{border-collapse:collapse;border-spacing:0;empty-cells:show;font-size:100%;width:100%;word-wrap:break-word}
+.single-post .single-content table, .widget_text table, .post-info-1 table {width:100%;margin:20px 0;border-width:1px 1px 1px 0;border-style:solid;border-collapse:separate;}
+.single-post .single-content table th, .widget_text table th, .single-post .single-content table td, .widget_text table td, .post-info-1 table td, .post-info-1 table th {border-width:1px 0 0 1px;border-style:solid;padding:8px;text-align:left;vertical-align:top;line-height:18px;}
+.single-post .single-content table thead:first-child tr:first-child th, .single-post .single-content table tbody:first-child tr:first-child th, .single-post .single-content table tbody:first-child tr:first-child td,.widget_text table thead:first-child tr:first-child th, .widget_text table tbody:first-child tr:first-child th, .widget_text table tbody:first-child tr:first-child td, .post-info-1 table thead:first-child tr:first-child th, .post-info-1 table tbody:first-child tr:first-child th, .post-info-1 table tbody:first-child tr:first-child td {border-top:0;}
+table label {white-space:normal;}
+table td {vertical-align:top;}
+
+/* List */
+ol, ul {margin-bottom:15px;}
+ol li, ul li {line-height:22px;list-style-position:inside}
+ol ol, ol ul, ul ul,ul ol{margin-left:16px;margin-bottom:0;}
+ol ol ol {margin-top:10px;margin-left:18px;}
+ol li, ul ol li {list-style-type:decimal}
+ul li {list-style:square inside none}
+ol ul > li {list-style:circle inside none}
+ol ol > li {list-style-type:decimal}
+ol > li > ol > li,ol > ol > li {list-style-type:upper-alpha}
+ol > li > ol > li > ol > li ,ol > ol > ol > li{list-style-type:upper-roman}
+
+/* Definition Lists */
+dl {margin-bottom:20px;}
+dt, dd {line-height:16px;}
+dt {font-weight:bold;}
+dd {margin-left:10px;}
+
+/* Content */
+del {text-decoration:line-through;}
+
+/* blockquote */
+blockquote {overflow:hidden;font-style:italic;line-height:16px;padding:0 0 0 20px;margin:0 0 30px;border-width:0 0 0 2px;border-style:solid;}
+
+/* code */
+body code{font-family:"Roboto";overflow:hidden;display:block;padding:25px 30px;border:0;background:#f2f2f2;font-size:12px;line-height:20px;margin:5px 0 20px;word-wrap:break-word;word-break:break-all;white-space:normal;border-radius:0;-moz-border-radius:0;-webkit-border-radius:0;transition:all 0.2s ease-in-out 0s;-moz-transition:all 0.2s ease-in-out 0s;-webkit-transition:all 0.2s ease-in-out 0s;}
+body code:hover {background-color:#f8f7f7;}
+body table code {white-space:normal}
+
+/* Form Elements */
+body input,body select,body textarea{font-weight:normal;font-size:12px;vertical-align:middle;max-width:535px;font-family:"Roboto";color:#999;}
+
+/* Input */
+html input {line-height:16px;max-width:100%;padding:8px 10px;border-width:1px;border-style:solid;font-size:12px;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-shadow:none;-moz-box-shadow:none;-webkit-box-shadow:none;}
+html input[type^=text] {transition:all 0.3s ease-in-out 0s;-moz-transition:all 0.3s ease-in-out 0s;-webkit-transition:all 0.3s ease-in-out 0s;}
+html input:focus:invalid:focus, html textarea:focus:invalid:focus, html select:focus:invalid:focus {color:#999;box-shadow:none;-moz-box-shadow:none;-webkit-box-shadow:none;}
+html input[type^="text"], html input[type^="email"],html input[type^="password"] {-webkit-appearance:none;border-radius:0;-moz-border-radius:0;-webkit-border-radius:0;}
+html input[type^=button] {-webkit-appearance:none}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {-webkit-appearance: none;} /* reset input type number on chrome */
+html input[type^="radio"] {border:0;padding-left:0;padding-right:0;padding-top:0;}
+html input[type^="checkbox"] {border:0;padding-left:0;padding-right:0;padding-top:0;}
+
+textarea {background:#fff;border-width:1px;border-style:solid;font-size:11px;padding:5px 8px 4px;-webkit-appearance:none;-webkit-border-radius:0!important;transition:all 0.3s ease-in-out 0s;-moz-transition:all 0.3s ease-in-out 0s;-webkit-transition:all 0.3s ease-in-out 0s;-webkit-appearance:none;border-radius:0;-moz-border-radius:0;-webkit-border-radius:0;}
+textarea:hover {border-color:#000;}
+select{background:#fff;border:1px solid #d5d5d5;font-size:11px;padding:6px 8px;max-width:400px;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;}
+select option {padding:0 3px;}
+
+textarea {overflow:auto;}
+table {max-width:100%;table-layout:fixed;}
+table tbody, table tfood {max-width:100%;}
+
+/* BR */
+br {margin:0 0 5px;}
+
+/* STYLE FOR BUTTON */
+button.button::-moz-focus-inner {padding:0;border:0;/* overrides extra padding in Firefox */} /* FF Fix */
+button.button {-webkit-border-fit:lines;} /* <- Safari & Google Chrome Fix */
+button.button, a.button {overflow:visible;/* removes extra side padding in IE */width:auto; border:0; padding:0; margin:0; background:transparent; cursor:pointer;}
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus {-webkit-box-shadow:0 0 0 50px white inset; /* Change the color to your own background color */-webkit-text-fill-color: #333;}
+#accordion-checkout-details .accordion-inner input[type^=button],#accordion-checkout-details .accordion-inner form.login input.button,
+form.checkout_coupon input.button,body form.checkout #payment #place_order,input[type^=submit],.loading-mark-up  {-webkit-appearance: none;} /* reset button style for IPod */
+a.button{display:inline-block;}
+button.button,a.button,input[type^=submit],html .woocommerce a.button,html .woocommerce button.button,html .woocommerce input.button,html .woocommerce #respond input#submit, .woocommerce #content input.button,html .woocommerce-page a.button,html .woocommerce-page button.button, .woocommerce-page input.button,html .woocommerce-page #respond input#submit, html .woocommerce-page #content input.button,html .woocommerce-page #content input.button, html .woocommerce #content table.cart input.button,html input.button {position:relative;top:auto;bottom:auto;right:auto;left:auto;display:inline-block;background-image:none;/*background-color:#000;*/padding:0 29px;line-height:40px;height:40px;border-width:1px;border-style:solid;/*border-color:#000;font-family:"Share";*/font-size:14px;text-transform:uppercase;/*color:#fff;*/font-weight:normal;text-shadow:none;-moz-text-shadow:none;-webkit-text-shadow:none;box-shadow:none;-moz-box-shadow:none;-webkit-box-shadow:none;border-radius:0;-moz-border-radius:0;-webkit-border-radius:0;transition:all 0.2s ease-in-out 0s;-moz-transition:all 0.2s ease-in-out 0s;-webkit-transition:all 0.2s ease-in-out 0s;}
+button.button:hover,a.button,input[type^=submit]:hover,html .woocommerce a.button:hover,html .woocommerce button.button:hover,html .woocommerce input.button:hover,html .woocommerce #respond input#submit:hover, .woocommerce #content input.button:hover,html .woocommerce-page a.button:hover,html .woocommerce-page button.button:hover, .woocommerce-page input.button:hover,html .woocommerce-page #respond input#submit:hover,html .woocommerce-page #content input.button:hover ,html input.button:hover{background:none;color:#000;}
+
+/* Others */
+.clear {clear:both;min-height:1px;width:100%;clear:both;}
+.clearboth {clear:both;}
+.clearleft {clear:left;}
+.noimage{margin-left:0;}
+.alignleft {float:left!important;margin:0 20px 20px 0!important;max-width:100%;height:auto;}
+.alignright {float:right;margin:0 0 20px 20px!important;max-width:100%;height:auto;}
+.aligncenter {display:block;margin:0 auto 20px;max-width:100%;height:auto;}
+body .woocommerce .star-rating:before,body .woocommerce-page .star-rating:before,body .woocommerce .star-rating span:before,body .woocommerce-page .star-rating span:before  {font-size:12px;}
+iframe {max-width:100%}
+iframe html {position:relative;z-index:1;}
+.mapp-layout {max-width:100%;}
+
+/* Default class of WP */
+.sticky{}
+.bypostauthor{}
+.gallery-caption {}
+.screen-reader-text {display:none;}
+.edit-link{display:none;}
+
+html .woocommerce form .form-row input.input-text,
+html .woocommerce-page form .form-row input.input-text {line-height:16px;padding:8px 10px;max-width:535px;}
+html.ie8 .woocommerce form .form-row input.input-text,
+html.ie8 .woocommerce-page form .form-row input.input-text {}
+html.ie9 .woocommerce form .form-row input.input-text,
+html.ie9 .woocommerce-page form .form-row input.input-text {}
+html.ie10 .woocommerce form .form-row input.input-text,
+html.ie10 .woocommerce-page form .form-row input.input-text {}
+html.ie10 .woocommerce form .form-row input.input-text:-ms-input-placeholder,
+html.ie10 .woocommerce-page form .form-row input.input-text:-ms-input-placeholder {}
+html .woocommerce form .form-row input.input-text:-webkit-input-placeholder,
+html .woocommerce-page form .form-row input.input-text:-webkit-input-placeholder {}
+
+/* Fix Bug Admin Bar Lag */
+#wpadminbar,
+#em_quickshop_handler,
+html .woocommerce ul.products li.product div.product_label, 
+htlm .woocommerce-page ul.products li.product div.product_label,
+#main-module-container ul li.product .product_thumbnail_wrapper > a[href^="http"], 
+.woocommerce .featured_product_slider_wrapper ul.products li.product .product_thumbnail_wrapper > a[href^="http"]{-webkit-transform:rotateX(0deg) rotateY(0deg) rotateZ(0deg)}
