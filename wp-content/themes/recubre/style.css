@@ -310,7 +310,7 @@ body.woocommerce-page form.register a.lost_password {display:inline-block;margin
 #header .header-main-content {position:relative}
 #header .header-top {position:relative;z-index:1000;float:left;width:100%;background:#000;padding:0 30px 0 25px;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;-o-box-sizing:border-box;}
 #header .header-top:after {content:"";display:block;width:30px;position:absolute;top:0;bottom:0;right:0;background:rgba(255,255,255,0.15)}
-#header .header-middle {position:relative;z-index:100;float:left;width:100%;background:#fff;padding:0 30px;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;-o-box-sizing:border-box;}
+#header .header-middle {position:relative;z-index:100;float:left;width:100%;background:#212121;padding:30px 30px 35px;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;-o-box-sizing:border-box;}
 #header .header-middle .header-middle-content {position:relative;}
 #header .header-bottom {position:absolute;left:0;right:0;bottom:-50px;z-index:30;float:left;width:100%;margin:0 auto;padding:0 20px;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;-o-box-sizing:border-box;}
 #header .header-bottom-content {border-bottom:1px solid #55555a;padding:12px 0;}
@@ -339,26 +339,26 @@ ul.social-share li.google a span {background-position:-183px -46px;}
 ul.social-share li.google a span:hover {background-position:-183px -81px;}
 
 /* 3 - LOGO */
-.logo {display:inline-block;float:left;margin:34px 10px 24px 0;}
+.logo {display:inline-block;float:left;margin:23px 10px 24px 0;}
 .logo a {display:inline-block;font-family:Roboto;font-size:28px;line-height:30px;color:#000;}
 .logo a:hover {text-decoration:none;}
 .logo img {margin:0;}
 
 /* 4 - SEARCH */
-#searchform {overflow:hidden;background:#fff;display:block;}
+#searchform {overflow:hidden;background:#fff;display:block;border-radius:15px!important;-moz-border-radius:15px!important;-webkit-border-radius:15px!important;-o-border-radius:15px!important;}
 #searchform .bg_search {position:relative;width:100%;padding-right:25px;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;}
-#searchform .bg_search:hover #s {border-color:#000;}
-#searchform .bg_search #s {display:inline-block;width:100%;background:#fff;border:0;font-size:11px;color:#999;font-weight:regular;font-family:Roboto;line-height:12px;margin:0;box-shadow:none;-moz-box-shadow:none;-webkit-box-shadow:none;-o-box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;}
+#searchform .bg_search:hover #s {border-color:#F8F8F8 !important;}
+#searchform .bg_search #s {display:inline-block;width:100%;background:#F8F8F8;border:0;font-size:11px;color:#999;font-weight:regular;font-family:Roboto;line-height:12px;margin:0;box-shadow:none;-moz-box-shadow:none;-webkit-box-shadow:none;-o-box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;}
 #searchform .bg_search #searchsubmit {display:inline-block;width:30px;height:30px;padding:0;position:absolute;top:0;right:0;cursor:pointer;border:0;background:url(images/images.png) no-repeat -109px 4px;color:transparent!important;font-size:0;line-height:0;border-radius:0!important;-moz-border-radius:0!important;-webkit-border-radius:0!important;-o-border-radius:0!important;transition:none;-moz-transition:none;-webkit-transition:none;}
-#searchform .bg_search:hover #searchsubmit {background-position:-138px 4px;}
-#header .header_search {position:absolute;right:-6px;top:10px;width:30px;height:30px;overflow:hidden;transition:all 0.3s ease-in-out 0s;-moz-transition:all 0.3s ease-in-out 0s;-webkit-transition:all 0.3s ease-in-out 0s}
-#header .bg_search #s {width:254px;height:30px;border-width:1px;border-style:solid;border-color:#ccc;position:relative;z-index:1;padding-top:7px;padding-bottom:7px;} 
+/*#searchform .bg_search:hover #searchsubmit {background-position:-138px 4px;}*/
+#header .header_search {position:absolute;right:108px;top:10px;width:auto;height:30px;overflow:hidden;}
+#header .bg_search #s {width:150px;height:30px;border-width:1px;border-style:solid;border-color:#F8F8F8;position:relative;z-index:1;padding-top:7px;padding-bottom:7px;} 
 .ie8 #header .bg_search #s  {padding-top:9px;padding-bottom:0;}
 .ie9 #header .bg_search #s  {padding-top:9px;padding-bottom:0;}
-#header .header_search .bg_search #searchsubmit {z-index:2;background-color:#fff;}
+#header .header_search .bg_search #searchsubmit {z-index:2;background-color:#F8F8F8;}
 #header .header_search #searchform {margin:0;}
-#header .header_search:hover {width:295px;}
-#header .header_search:hover .bg_search #searchsubmit {background-position:-138px 4px;}
+/* #header .header_search:hover {width:295px;}
+ #header .header_search:hover .bg_search #searchsubmit {background-position:-138px 4px;}*/
 
 /* 5 - HEADER BOTTOM */
 ul.home-three-banners {overflow:hidden;border-bottom:3px double #000;padding-bottom:30px;margin:0 0 25px;}
@@ -466,7 +466,7 @@ html .woocommerce .woocommerce-breadcrumb .brn_arrow:after, #crumbs .brn_arrow:a
 #footer .first-footer-widget-area {/*background:rgba(0,0,0,0.08);-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#08000000,endColorstr=#08000000)";*/zoom: 1;}
 .ie8 #footer .first-footer-widget-area {-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#08000000,endColorstr=#08000000)";}
 #footer .first-footer-widget-area ul.xoxo {padding:0 50px 0 10px;}
-#footer .first-footer-widget-area ul.xoxo > li {margin-top:30px;}
+#footer .first-footer-widget-area ul.xoxo > li {margin-top:13px;}
 #footer .first-footer-widget-area ul.xoxo > li:first-child {margin-top:0;}
 
 /* 2 - SECOND FOOTER WIDGET AREA */
@@ -2587,9 +2587,9 @@ ul.sample-block li a.link-sidebar-05 {color:#CAAE3C}
 /*==============================================================*/
 
 #footer a {font-size:12px;font-weight:normal;}
-#footer .first-footer-widget-area > div > div{padding:30px 0 45px;}
+#footer .first-footer-widget-area > div > div{padding:55px 0 40px;}
 #footer .first-footer-widget-area a {transition:all 0.3s ease-in-out 0s;-moz-transition:all 0.3s ease-in-out 0s;-webkit-transition:all 0.3s ease-in-out 0s}
-#footer .second-footer-widget-area > div > div {padding:30px 0 0}
+#footer .second-footer-widget-area > div > div {padding:12px 0 }
 #footer .second-footer-widget-area h3 {font-size:16px;}
 
 /* 1. WOO CART LIST - PRODUCT LIST - CART LIST  */

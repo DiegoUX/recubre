@@ -22,6 +22,7 @@ if($is_IE){
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
+
 <title>
 <?php
 	/*
@@ -47,6 +48,7 @@ if($is_IE){
 </title>
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/custom-style.css">
 <?php theme_icon();?>
 <?php
 	/* We add some JavaScript to pages with the comment form
@@ -62,6 +64,7 @@ if($is_IE){
 	 */
 	wp_head();
 ?>
+
 </head>
 
 <?php

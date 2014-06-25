@@ -119,6 +119,11 @@
 		function wd_print_header_head(){
 	?>	
 	
+			<div class="header-contact">
+				<p class="tel">Comuníquese con nosotros <a href="tel:+018009999400">01 800 999 9400</a></p>
+			</div>
+
+
 			<div class="header-top">
 				<?php 
 					if( strlen(trim(get_option(THEME_SLUG.'facebok_link'))) > 0 || 
@@ -168,7 +173,7 @@
 					</ul>
 				</div>
 				<?php endif; ?>
-				<div class="header-top-content right-header-top-content">
+			<!--	<div class="header-top-content right-header-top-content">
 					<div class="shopping-cart shopping-cart-wrapper">
 						<?php echo wd_tini_cart();?>
 					</div>
@@ -198,7 +203,7 @@
 						</div>
 						<div class="mobile_cart_number">0</div>
 					</div>
-				</div>
+				</div>-->
 			</div><!-- end header top -->
 			
 		<?php	
@@ -213,6 +218,10 @@
 				<div class="header-middle-content">
 					<?php theme_logo();?>
 					<div class="header_search"><?php get_search_form(); ?></div>
+					<ul class="social">
+						<li class="facebook"><a href=""></a></li>
+						<li class="twitter"><a href=""></a></li>
+					</ul>
 					<div class="nav">
 						<?php 
 							if ( has_nav_menu( 'primary' ) ) {
@@ -519,24 +528,24 @@
 	if(!function_exists ('wd_footer_init_widget_area_5')){
 		function wd_footer_init_widget_area_5(){
 	?>	
-			<div class="wd_footer_end">
+			<!--<div class="wd_footer_end">
 				<div class="container">
 					<div id="copy-right" class="copy-right span18">
 						<div class="copyright">
 							<?php echo stripslashes(get_option(THEME_SLUG.'copyright_text')); ?>
-							<!--<p><?php echo get_num_queries(); ?> queries in <?php timer_stop(1); ?>  seconds.</p>-->
+							comentar si descomento wd_footer-end<p><?php echo get_num_queries(); ?> queries in <?php timer_stop(1); ?>  seconds.</p>
 						</div>
-					</div><!-- end #copyright -->
+					</div>
 					<div class="payment span6">
 						<a href="<?php if(get_option(THEME_SLUG.'visa_link')) { echo get_option(THEME_SLUG.'visa_link'); } else { echo '#'; }?>"><img alt="visa" title ="visa" src="<?php echo get_option(THEME_SLUG.'visa_image'); ?>" /></a>
 						<a href="<?php if(get_option(THEME_SLUG.'mastercard_link')) { echo get_option(THEME_SLUG.'mastercard_link'); } else { echo '#'; }?>"><img alt="master card" title="master card" src="<?php echo get_option(THEME_SLUG.'mastercard_image'); ?>" /></a>
 						<a href="<?php if(get_option(THEME_SLUG.'americanexpress_link')) { echo get_option(THEME_SLUG.'americanexpress_link'); } else { echo '#'; }?>"><img alt="express" title="express" src="<?php echo get_option(THEME_SLUG.'americanexpress_image'); ?>" /></a>
 						<a href="<?php if(get_option(THEME_SLUG.'paypal_link')) { echo get_option(THEME_SLUG.'paypal_link'); } else { echo '#'; }?>"><img alt="paypal" title ="paypal" src="<?php echo get_option(THEME_SLUG.'paypal_image'); ?>" /></a>
-						<!--<a href="#"><img alt="dhl" title="dhl" src="http://demo.wpdance.com/imgs/woocommerce/payment_dhl.png" /></a>
-						<a href="#"><img alt="fedex" title="fedex" src="http://demo.wpdance.com/imgs/woocommerce/payment_fedex.png" /></a>-->
+						comentar si descomento wd_footer-end<a href="#"><img alt="dhl" title="dhl" src="http://demo.wpdance.com/imgs/woocommerce/payment_dhl.png" /></a>
+						comentar si descomento wd_footer-end<a href="#"><img alt="fedex" title="fedex" src="http://demo.wpdance.com/imgs/woocommerce/payment_fedex.png" /></a>
 					</div>
 				</div>
-			</div>	
+			</div>-->	
 				<?php wp_reset_query();?>
 	
 	<?php

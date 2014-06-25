@@ -253,13 +253,13 @@ only screen and (max-width: 1024px) and (min-width: 768px)
 	{
 		/* HEADER */
 		#header .logo {margin:20px auto;float:none;text-align:center;width:100%}
-		#header .header_search {position:relative;left:auto;right:auto;top:auto;bottom:auto;clear:left;margin:0 auto;}
+		#header .header_search {position:relative;left:auto;right:auto;top:auto;bottom:auto;clear:left;margin:0 100px 0 auto;}
 		#header .bg_search #s {width:254px;}
 		#header .header-top {padding:0;}
 		#header .header-middle {padding:0 10px;}
 		#header .header-top:after {display:none;}
-		#header .header_search, 
-		#header .header_search:hover {width:295px} 
+	/*	#header .header_search, 
+		#header .header_search:hover {width:295px} */
 		#header .header-top:after {display:none;} 
 		
 		/* MAIN CONTENT */

@@ -368,7 +368,7 @@ class EWAbstractTheme
 
 		
 		$protocol = is_ssl() ? 'https' : 'http';
-		wp_enqueue_style( 'techgo-roboto', "$protocol://fonts.googleapis.com/css?family=Roboto" );
+		wp_enqueue_style( 'techgo-roboto', "$protocol://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700" );
 		wp_enqueue_style( 'techgo-share-tech', "$protocol://fonts.googleapis.com/css?family=Share+Tech" );
 		wp_enqueue_style( 'techgo-share', "$protocol://fonts.googleapis.com/css?family=Share" );
 		

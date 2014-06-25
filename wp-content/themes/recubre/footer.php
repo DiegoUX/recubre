@@ -38,5 +38,7 @@
 
 	wp_footer();
 ?>
+
+<script src="<?php echo get_template_directory_uri(); ?>/js/custom-js.js" type="text/javascript"></script>
 </body>
 </html>
