@@ -115,6 +115,8 @@
 }
 
 #header .header-container .header-contact p.tel{
+	background: url("images/phone.png") no-repeat scroll 0px 2px rgba(0, 0, 0, 0);
+	padding-left: 16px;
 	margin: 0;
 	color: #9b9b9b;
 	text-transform: uppercase;
